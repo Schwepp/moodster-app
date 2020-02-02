@@ -30,6 +30,7 @@
     "@vue/eslint-config-standard": "^4.0.0",
     "@vue/eslint-config-typescript": "^4.0.0",
     "@vue/test-utils": "1.0.0-beta.29",
+    "codecov": "^3.6.4",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
     "typescript": "~3.5.3",
@@ -66,6 +67,8 @@
     "last 2 versions"
   ],
   "jest": {
-    "preset": "@vue/cli-plugin-unit-jest/presets/typescript-and-babel"
+    "preset": "@vue/cli-plugin-unit-jest/presets/typescript-and-babel",
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
