@@ -1,5 +1,10 @@
 # moodster-app
 
+Moodster App Project
+
+[![Build Status](https://travis-ci.com/Schwepp/moodster-app.svg?branch=master)](https://travis-ci.com/Schwepp/moodster-app)
+[![codecov](https://codecov.io/gh/Schwepp/moodster-app/branch/master/graph/badge.svg)](https://codecov.io/gh/Schwepp/moodster-app)
+
 ## Project setup
 ```
 npm install
